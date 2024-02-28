@@ -26,7 +26,7 @@ export const MenuPizza = () => {
   }, [controls]);
   return (
     <>
-      <div className="bg-[#c81b16] w-full h-[96vh] flex justify-center relative overflow-hidden">
+      <div className="bg-[#c81b16] w-full h-[95vh] flex justify-center relative overflow-hidden">
         <img
           src={hoja}
           alt="hoja"
