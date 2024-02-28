@@ -1,8 +1,6 @@
 import { CardRecipe } from "./components/CardRecipe";
 import { menus } from "./utils/menus";
 import { GiFullPizza } from "react-icons/gi";
-import pizzaImage from "./images/pizza.png";
-import pizzaImage2 from "./images/pizza2.png";
 import hoja from "./images/hoja.png";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
@@ -36,7 +34,7 @@ export const MenuPizza = () => {
         />
 
         <img
-          src={pizzaImage2}
+          src="https://i.ibb.co/fN2bHqq/pizza2.png"
           alt="pizza imagen"
           className="absolute bottom-[-40px] right-[-80px]  h-[100px]"
         />
@@ -45,7 +43,7 @@ export const MenuPizza = () => {
             PIZZA
           </p>
           <img
-            src={pizzaImage}
+            src="https://i.ibb.co/64zj2kM/pizza.png"
             alt="pizza"
             className="absolute top-[50%] transform -translate-y-1/2 h-[25rem] left-[-14px]"
           />
